@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		572BEBC8206E78C700A93F4B /* BitZenyMiningLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572BEBC9206E78C700A93F4B /* BitZenyMiningLibrary.framework */; };
+		57805310206E80C400A82E4A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57D2A4B3206E7781004C545C /* Info.plist */; };
+		57C639D0206E8795009C9DAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C639CF206E8795009C9DAB /* ViewController.swift */; };
+		57C639D3206E87EF009C9DAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C639D1206E87EF009C9DAB /* Main.storyboard */; };
+		57D2A4A8206E7781004C545C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D2A4A7206E7781004C545C /* AppDelegate.swift */; };
+		57D2A4AF206E7781004C545C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57D2A4AE206E7781004C545C /* Assets.xcassets */; };
+		57D2A4B2206E7781004C545C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D2A4B0206E7781004C545C /* LaunchScreen.storyboard */; };
+		57D2A4BD206E7781004C545C /* BitZenyMinerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D2A4BC206E7781004C545C /* BitZenyMinerTests.swift */; };
+		57D2A4C8206E7782004C545C /* BitZenyMinerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D2A4C7206E7782004C545C /* BitZenyMinerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57D2A4B9206E7781004C545C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57D2A49C206E7781004C545C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57D2A4A3206E7781004C545C;
+			remoteInfo = BitZenyMiner;
+		};
+		57D2A4C4206E7782004C545C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57D2A49C206E7781004C545C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57D2A4A3206E7781004C545C;
+			remoteInfo = BitZenyMiner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		572BEBC9206E78C700A93F4B /* BitZenyMiningLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BitZenyMiningLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57C639CF206E8795009C9DAB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57C639D2206E87EF009C9DAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57D2A4A4206E7781004C545C /* BitZenyMiner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitZenyMiner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D2A4A7206E7781004C545C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57D2A4AE206E7781004C545C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57D2A4B1206E7781004C545C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57D2A4B3206E7781004C545C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57D2A4B8206E7781004C545C /* BitZenyMinerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitZenyMinerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D2A4BC206E7781004C545C /* BitZenyMinerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitZenyMinerTests.swift; sourceTree = "<group>"; };
+		57D2A4BE206E7782004C545C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57D2A4C3206E7782004C545C /* BitZenyMinerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitZenyMinerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D2A4C7206E7782004C545C /* BitZenyMinerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitZenyMinerUITests.swift; sourceTree = "<group>"; };
+		57D2A4C9206E7782004C545C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57D2A4A1206E7781004C545C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				572BEBC8206E78C700A93F4B /* BitZenyMiningLibrary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D2A4B5206E7781004C545C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D2A4C0206E7782004C545C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		572BEBC7206E78C700A93F4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				572BEBC9206E78C700A93F4B /* BitZenyMiningLibrary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57D2A49B206E7781004C545C = {
+			isa = PBXGroup;
+			children = (
+				57D2A4A6206E7781004C545C /* BitZenyMiner */,
+				57D2A4BB206E7781004C545C /* BitZenyMinerTests */,
+				57D2A4C6206E7782004C545C /* BitZenyMinerUITests */,
+				57D2A4A5206E7781004C545C /* Products */,
+				572BEBC7206E78C700A93F4B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		57D2A4A5206E7781004C545C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57D2A4A4206E7781004C545C /* BitZenyMiner.app */,
+				57D2A4B8206E7781004C545C /* BitZenyMinerTests.xctest */,
+				57D2A4C3206E7782004C545C /* BitZenyMinerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57D2A4A6206E7781004C545C /* BitZenyMiner */ = {
+			isa = PBXGroup;
+			children = (
+				57D2A4A7206E7781004C545C /* AppDelegate.swift */,
+				57D2A4AE206E7781004C545C /* Assets.xcassets */,
+				57C639CF206E8795009C9DAB /* ViewController.swift */,
+				57C639D1206E87EF009C9DAB /* Main.storyboard */,
+				57D2A4B0206E7781004C545C /* LaunchScreen.storyboard */,
+				57D2A4B3206E7781004C545C /* Info.plist */,
+			);
+			path = BitZenyMiner;
+			sourceTree = "<group>";
+		};
+		57D2A4BB206E7781004C545C /* BitZenyMinerTests */ = {
+			isa = PBXGroup;
+			children = (
+				57D2A4BC206E7781004C545C /* BitZenyMinerTests.swift */,
+				57D2A4BE206E7782004C545C /* Info.plist */,
+			);
+			path = BitZenyMinerTests;
+			sourceTree = "<group>";
+		};
+		57D2A4C6206E7782004C545C /* BitZenyMinerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57D2A4C7206E7782004C545C /* BitZenyMinerUITests.swift */,
+				57D2A4C9206E7782004C545C /* Info.plist */,
+			);
+			path = BitZenyMinerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57D2A4A3206E7781004C545C /* BitZenyMiner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57D2A4CC206E7782004C545C /* Build configuration list for PBXNativeTarget "BitZenyMiner" */;
+			buildPhases = (
+				57D2A4A0206E7781004C545C /* Sources */,
+				57D2A4A1206E7781004C545C /* Frameworks */,
+				57D2A4A2206E7781004C545C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitZenyMiner;
+			productName = BitZenyMiner;
+			productReference = 57D2A4A4206E7781004C545C /* BitZenyMiner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57D2A4B7206E7781004C545C /* BitZenyMinerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57D2A4CF206E7782004C545C /* Build configuration list for PBXNativeTarget "BitZenyMinerTests" */;
+			buildPhases = (
+				57D2A4B4206E7781004C545C /* Sources */,
+				57D2A4B5206E7781004C545C /* Frameworks */,
+				57D2A4B6206E7781004C545C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57D2A4BA206E7781004C545C /* PBXTargetDependency */,
+			);
+			name = BitZenyMinerTests;
+			productName = BitZenyMinerTests;
+			productReference = 57D2A4B8206E7781004C545C /* BitZenyMinerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57D2A4C2206E7782004C545C /* BitZenyMinerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57D2A4D2206E7782004C545C /* Build configuration list for PBXNativeTarget "BitZenyMinerUITests" */;
+			buildPhases = (
+				57D2A4BF206E7782004C545C /* Sources */,
+				57D2A4C0206E7782004C545C /* Frameworks */,
+				57D2A4C1206E7782004C545C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57D2A4C5206E7782004C545C /* PBXTargetDependency */,
+			);
+			name = BitZenyMinerUITests;
+			productName = BitZenyMinerUITests;
+			productReference = 57D2A4C3206E7782004C545C /* BitZenyMinerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57D2A49C206E7781004C545C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ottylab;
+				TargetAttributes = {
+					57D2A4A3206E7781004C545C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					57D2A4B7206E7781004C545C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 57D2A4A3206E7781004C545C;
+					};
+					57D2A4C2206E7782004C545C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 57D2A4A3206E7781004C545C;
+					};
+				};
+			};
+			buildConfigurationList = 57D2A49F206E7781004C545C /* Build configuration list for PBXProject "BitZenyMiner" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57D2A49B206E7781004C545C;
+			productRefGroup = 57D2A4A5206E7781004C545C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57D2A4A3206E7781004C545C /* BitZenyMiner */,
+				57D2A4B7206E7781004C545C /* BitZenyMinerTests */,
+				57D2A4C2206E7782004C545C /* BitZenyMinerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57D2A4A2206E7781004C545C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57805310206E80C400A82E4A /* Info.plist in Resources */,
+				57D2A4B2206E7781004C545C /* LaunchScreen.storyboard in Resources */,
+				57D2A4AF206E7781004C545C /* Assets.xcassets in Resources */,
+				57C639D3206E87EF009C9DAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D2A4B6206E7781004C545C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D2A4C1206E7782004C545C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57D2A4A0206E7781004C545C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C639D0206E8795009C9DAB /* ViewController.swift in Sources */,
+				57D2A4A8206E7781004C545C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D2A4B4206E7781004C545C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D2A4BD206E7781004C545C /* BitZenyMinerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D2A4BF206E7782004C545C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D2A4C8206E7782004C545C /* BitZenyMinerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57D2A4BA206E7781004C545C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57D2A4A3206E7781004C545C /* BitZenyMiner */;
+			targetProxy = 57D2A4B9206E7781004C545C /* PBXContainerItemProxy */;
+		};
+		57D2A4C5206E7782004C545C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57D2A4A3206E7781004C545C /* BitZenyMiner */;
+			targetProxy = 57D2A4C4206E7782004C545C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57C639D1206E87EF009C9DAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57C639D2206E87EF009C9DAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57D2A4B0206E7781004C545C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57D2A4B1206E7781004C545C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57D2A4CA206E7782004C545C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57D2A4CB206E7782004C545C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57D2A4CD206E7782004C545C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9TZRE3N35;
+				INFOPLIST_FILE = BitZenyMiner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ottylab.bitzenyminer.BitZenyMiner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57D2A4CE206E7782004C545C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9TZRE3N35;
+				INFOPLIST_FILE = BitZenyMiner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ottylab.bitzenyminer.BitZenyMiner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		57D2A4D0206E7782004C545C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BitZenyMinerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ottylab.bitzenyminer.BitZenyMinerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitZenyMiner.app/BitZenyMiner";
+			};
+			name = Debug;
+		};
+		57D2A4D1206E7782004C545C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BitZenyMinerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ottylab.bitzenyminer.BitZenyMinerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitZenyMiner.app/BitZenyMiner";
+			};
+			name = Release;
+		};
+		57D2A4D3206E7782004C545C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BitZenyMinerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ottylab.bitzenyminer.BitZenyMinerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BitZenyMiner;
+			};
+			name = Debug;
+		};
+		57D2A4D4206E7782004C545C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BitZenyMinerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ottylab.bitzenyminer.BitZenyMinerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BitZenyMiner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57D2A49F206E7781004C545C /* Build configuration list for PBXProject "BitZenyMiner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57D2A4CA206E7782004C545C /* Debug */,
+				57D2A4CB206E7782004C545C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57D2A4CC206E7782004C545C /* Build configuration list for PBXNativeTarget "BitZenyMiner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57D2A4CD206E7782004C545C /* Debug */,
+				57D2A4CE206E7782004C545C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57D2A4CF206E7782004C545C /* Build configuration list for PBXNativeTarget "BitZenyMinerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57D2A4D0206E7782004C545C /* Debug */,
+				57D2A4D1206E7782004C545C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57D2A4D2206E7782004C545C /* Build configuration list for PBXNativeTarget "BitZenyMinerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57D2A4D3206E7782004C545C /* Debug */,
+				57D2A4D4206E7782004C545C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57D2A49C206E7781004C545C /* Project object */;
+}
