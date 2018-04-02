@@ -1,0 +1,3 @@
+[submodule "BitZenyMiningLibrary/BitZenyMiningLibrary/libcpuminer"]
+	path = BitZenyMiningLibrary/BitZenyMiningLibrary/libcpuminer
+	url = git@github.com:OttyLab/cpuminer.git
