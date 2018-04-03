@@ -33,4 +33,19 @@ class BitZenyMinerTests: XCTestCase {
         }
     }
     
+    func testLogQueue() {
+        let CAPACITY = 10
+
+        var queue: [String] = []
+        for i in 0..<CAPACITY * 10 {
+            let output = Utils.rotateStringueue(queue: &queue, maxSize: CAPACITY, next: String(i))
+
+            var j = 0
+            for element in queue {
+                let expected = ((i < CAPACITY) ? 0 : i - CAPACITY + 1) + j
+                j += 1
+                XCTAssertEqual(String(expected), element)
+            }
+        }
+    }
 }

@@ -16,6 +16,8 @@
 		57D2A4B2206E7781004C545C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D2A4B0206E7781004C545C /* LaunchScreen.storyboard */; };
 		57D2A4BD206E7781004C545C /* BitZenyMinerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D2A4BC206E7781004C545C /* BitZenyMinerTests.swift */; };
 		57D2A4C8206E7782004C545C /* BitZenyMinerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D2A4C7206E7782004C545C /* BitZenyMinerUITests.swift */; };
+		57EB9C7F2073BADF000A0648 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EB9C7E2073BADF000A0648 /* Utils.swift */; };
+		57EB9C802073BADF000A0648 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EB9C7E2073BADF000A0648 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,7 @@
 		57D2A4C3206E7782004C545C /* BitZenyMinerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitZenyMinerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D2A4C7206E7782004C545C /* BitZenyMinerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitZenyMinerUITests.swift; sourceTree = "<group>"; };
 		57D2A4C9206E7782004C545C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57EB9C7E2073BADF000A0648 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,7 @@
 				57C639D1206E87EF009C9DAB /* Main.storyboard */,
 				57D2A4B0206E7781004C545C /* LaunchScreen.storyboard */,
 				57D2A4B3206E7781004C545C /* Info.plist */,
+				57EB9C7E2073BADF000A0648 /* Utils.swift */,
 			);
 			path = BitZenyMiner;
 			sourceTree = "<group>";
@@ -275,6 +279,7 @@
 			files = (
 				57C639D0206E8795009C9DAB /* ViewController.swift in Sources */,
 				57D2A4A8206E7781004C545C /* AppDelegate.swift in Sources */,
+				57EB9C7F2073BADF000A0648 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57D2A4BD206E7781004C545C /* BitZenyMinerTests.swift in Sources */,
+				57EB9C802073BADF000A0648 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
