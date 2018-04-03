@@ -12,6 +12,8 @@ import BitZenyMiningLibrary
 class ViewController: UIViewController {
     private var running = false
     private let defaults = UserDefaults.standard;
+    private let LOG_SIZE = 1000
+    private var logs: [String] = []
 
     
     @IBOutlet weak var textFieldServer: UITextField!
@@ -60,7 +62,8 @@ class ViewController: UIViewController {
     }
     
     func handleMessage(log: String?) {
-        textViewLog.text = textViewLog.text + log!
+        let output = Utils.rotateStringueue(queue: &logs, maxSize: LOG_SIZE, next: log!)
+        textViewLog.text = output
     }
 
     func changeState(running:Bool) {
