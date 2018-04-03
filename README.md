@@ -23,3 +23,7 @@ Passed method receives log data.
 - (int) startBenchmark;
 - (int) stopMining;
 ```
+
+## Tips
+
+Library core uses `git submodule`. Therefore, run `git submodule update` after cloning.
