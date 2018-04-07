@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		572BEBC8206E78C700A93F4B /* BitZenyMiningLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572BEBC9206E78C700A93F4B /* BitZenyMiningLibrary.framework */; };
+		573737692078F2E00002E277 /* BitZenyMiningLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572BEBC9206E78C700A93F4B /* BitZenyMiningLibrary.framework */; };
+		5737376A2078F2E00002E277 /* BitZenyMiningLibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 572BEBC9206E78C700A93F4B /* BitZenyMiningLibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		57805310206E80C400A82E4A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57D2A4B3206E7781004C545C /* Info.plist */; };
 		57C639D0206E8795009C9DAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C639CF206E8795009C9DAB /* ViewController.swift */; };
 		57C639D3206E87EF009C9DAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C639D1206E87EF009C9DAB /* Main.storyboard */; };
@@ -37,6 +38,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5737376B2078F2E00002E277 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5737376A2078F2E00002E277 /* BitZenyMiningLibrary.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		572BEBC9206E78C700A93F4B /* BitZenyMiningLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BitZenyMiningLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C639CF206E8795009C9DAB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				572BEBC8206E78C700A93F4B /* BitZenyMiningLibrary.framework in Frameworks */,
+				573737692078F2E00002E277 /* BitZenyMiningLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +167,7 @@
 				57D2A4A0206E7781004C545C /* Sources */,
 				57D2A4A1206E7781004C545C /* Frameworks */,
 				57D2A4A2206E7781004C545C /* Resources */,
+				5737376B2078F2E00002E277 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -449,6 +465,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V9TZRE3N35;
 				INFOPLIST_FILE = BitZenyMiner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.ottylab.bitzenyminer.BitZenyMiner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -464,6 +481,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V9TZRE3N35;
 				INFOPLIST_FILE = BitZenyMiner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.ottylab.bitzenyminer.BitZenyMiner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
