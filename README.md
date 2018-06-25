@@ -26,4 +26,9 @@ Passed method receives log data.
 
 ## Tips
 
-Library core uses `git submodule`. Therefore, run `git submodule update` after cloning.
+Library core uses submodule. Therefore, run below commands after clone;
+
+```
+git submodule init
+git submodule update
+```
