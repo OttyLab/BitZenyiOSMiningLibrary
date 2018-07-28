@@ -23,6 +23,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var buttonDrive: UIButton!
     @IBOutlet weak var switchBenchmark: UISwitch!
     @IBOutlet weak var textViewLog: UITextView!
+    @IBOutlet weak var switchYespower: UISwitch!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,14 +42,16 @@ class ViewController: UIViewController {
             obj?.stopMining()
         } else {
             var n_threads = Int32(textFieldNThreads.text ?? "0") ?? 0
+            var altorithm = switchYespower.isOn ? Algorithm.YESPOWER : Algorithm.YESCRYPT
             if (switchBenchmark.isOn) {
-                obj?.startBenchmark()
+                obj?.startBenchmark(altorithm)
             } else {
                 obj?.startMining(
                     textFieldServer.text,
                     user:textFieldUser.text,
                     password:textFieldPassword.text,
-                    n_threads: n_threads);
+                    n_threads: n_threads,
+                    algorithm: altorithm)
             }
         }
         
@@ -78,6 +81,7 @@ class ViewController: UIViewController {
         textFieldPassword.isEnabled = !running;
         textFieldNThreads.isEnabled = !running;
         switchBenchmark.isEnabled = !running;
+        switchYespower.isEnabled = !running;
     }
 
     func storeSetting() {
@@ -85,6 +89,7 @@ class ViewController: UIViewController {
         defaults.set(textFieldUser.text, forKey: "user")
         defaults.set(textFieldPassword.text, forKey: "password")
         defaults.set(textFieldNThreads.text, forKey: "n_threads")
+        defaults.set(switchYespower.isOn, forKey: "algorithm")
     }
     
     func restoreSetting() {
@@ -92,6 +97,7 @@ class ViewController: UIViewController {
         textFieldUser.text = defaults.string(forKey: "user")
         textFieldPassword.text = defaults.string(forKey: "password")
         textFieldNThreads.text = defaults.string(forKey: "n_threads")
+        switchYespower.isOn = defaults.bool(forKey: "algorithm")
     }
 
 }

@@ -58,6 +58,17 @@
 		5703DE64206E7428008EB929 /* yescrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 5703DE3B206E7428008EB929 /* yescrypt.h */; };
 		5703DE66206E743E008EB929 /* BitZenyMiningLibrary.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5703DE65206E743E008EB929 /* BitZenyMiningLibrary.mm */; };
 		572BEBCB206E795500A93F4B /* BitZenyMiningLibrary-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 572BEBCA206E795500A93F4B /* BitZenyMiningLibrary-Bridging-Header.h */; };
+		573A49DE210CAC2300DFCB3E /* .dirstamp in Resources */ = {isa = PBXBuildFile; fileRef = 573A49CF210CAC2300DFCB3E /* .dirstamp */; };
+		573A49DF210CAC2300DFCB3E /* PERFORMANCE in Resources */ = {isa = PBXBuildFile; fileRef = 573A49D0210CAC2300DFCB3E /* PERFORMANCE */; };
+		573A49E0210CAC2300DFCB3E /* README in Resources */ = {isa = PBXBuildFile; fileRef = 573A49D1210CAC2300DFCB3E /* README */; };
+		573A49E1210CAC2300DFCB3E /* TESTS-OK in Resources */ = {isa = PBXBuildFile; fileRef = 573A49D2210CAC2300DFCB3E /* TESTS-OK */; };
+		573A49E3210CAC2300DFCB3E /* insecure_memzero.h in Headers */ = {isa = PBXBuildFile; fileRef = 573A49D4210CAC2300DFCB3E /* insecure_memzero.h */; };
+		573A49E4210CAC2300DFCB3E /* sha256.c in Sources */ = {isa = PBXBuildFile; fileRef = 573A49D5210CAC2300DFCB3E /* sha256.c */; };
+		573A49E5210CAC2300DFCB3E /* sha256.h in Headers */ = {isa = PBXBuildFile; fileRef = 573A49D6210CAC2300DFCB3E /* sha256.h */; };
+		573A49E6210CAC2300DFCB3E /* sysendian.h in Headers */ = {isa = PBXBuildFile; fileRef = 573A49D7210CAC2300DFCB3E /* sysendian.h */; };
+		573A49EB210CAC2300DFCB3E /* yespower.c in Sources */ = {isa = PBXBuildFile; fileRef = 573A49DC210CAC2300DFCB3E /* yespower.c */; };
+		573A49EC210CAC2300DFCB3E /* yespower.h in Headers */ = {isa = PBXBuildFile; fileRef = 573A49DD210CAC2300DFCB3E /* yespower.h */; };
+		573A49EE210CAC3400DFCB3E /* sha2-x86-notextrel.S in Sources */ = {isa = PBXBuildFile; fileRef = 573A49ED210CAC3400DFCB3E /* sha2-x86-notextrel.S */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,6 +143,22 @@
 		5703DE3B206E7428008EB929 /* yescrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yescrypt.h; sourceTree = "<group>"; };
 		5703DE65206E743E008EB929 /* BitZenyMiningLibrary.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BitZenyMiningLibrary.mm; sourceTree = "<group>"; };
 		572BEBCA206E795500A93F4B /* BitZenyMiningLibrary-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BitZenyMiningLibrary-Bridging-Header.h"; sourceTree = "<group>"; };
+		573A49CF210CAC2300DFCB3E /* .dirstamp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .dirstamp; sourceTree = "<group>"; };
+		573A49D0210CAC2300DFCB3E /* PERFORMANCE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PERFORMANCE; sourceTree = "<group>"; };
+		573A49D1210CAC2300DFCB3E /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		573A49D2210CAC2300DFCB3E /* TESTS-OK */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "TESTS-OK"; sourceTree = "<group>"; };
+		573A49D3210CAC2300DFCB3E /* benchmark.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = benchmark.c; sourceTree = "<group>"; };
+		573A49D4210CAC2300DFCB3E /* insecure_memzero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = insecure_memzero.h; sourceTree = "<group>"; };
+		573A49D5210CAC2300DFCB3E /* sha256.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha256.c; sourceTree = "<group>"; };
+		573A49D6210CAC2300DFCB3E /* sha256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha256.h; sourceTree = "<group>"; };
+		573A49D7210CAC2300DFCB3E /* sysendian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sysendian.h; sourceTree = "<group>"; };
+		573A49D8210CAC2300DFCB3E /* tests.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tests.c; sourceTree = "<group>"; };
+		573A49D9210CAC2300DFCB3E /* yespower-opt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "yespower-opt.c"; sourceTree = "<group>"; };
+		573A49DA210CAC2300DFCB3E /* yespower-platform.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "yespower-platform.c"; sourceTree = "<group>"; };
+		573A49DB210CAC2300DFCB3E /* yespower-ref.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "yespower-ref.c"; sourceTree = "<group>"; };
+		573A49DC210CAC2300DFCB3E /* yespower.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yespower.c; sourceTree = "<group>"; };
+		573A49DD210CAC2300DFCB3E /* yespower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yespower.h; sourceTree = "<group>"; };
+		573A49ED210CAC3400DFCB3E /* sha2-x86-notextrel.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "sha2-x86-notextrel.S"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -273,6 +300,7 @@
 		5703DE12206E7428008EB929 /* libcpuminer */ = {
 			isa = PBXGroup;
 			children = (
+				573A49CE210CAC2300DFCB3E /* yespower */,
 				5703DE13206E7428008EB929 /* .gitignore */,
 				5703DE14206E7428008EB929 /* AUTHORS */,
 				5703DE15206E7428008EB929 /* CMakeLists.txt */,
@@ -280,6 +308,7 @@
 				5703DE17206E7428008EB929 /* ChangeLog */,
 				5703DE18206E7428008EB929 /* Dockerfile */,
 				5703DE19206E7428008EB929 /* LICENSE */,
+				573A49ED210CAC3400DFCB3E /* sha2-x86-notextrel.S */,
 				5703DE1A206E7428008EB929 /* Makefile.am */,
 				5703DE1B206E7428008EB929 /* NEWS */,
 				5703DE1C206E7428008EB929 /* README */,
@@ -319,6 +348,28 @@
 			path = BitZenyMiningLibrary/libcpuminer;
 			sourceTree = SOURCE_ROOT;
 		};
+		573A49CE210CAC2300DFCB3E /* yespower */ = {
+			isa = PBXGroup;
+			children = (
+				573A49CF210CAC2300DFCB3E /* .dirstamp */,
+				573A49D0210CAC2300DFCB3E /* PERFORMANCE */,
+				573A49D1210CAC2300DFCB3E /* README */,
+				573A49D2210CAC2300DFCB3E /* TESTS-OK */,
+				573A49D3210CAC2300DFCB3E /* benchmark.c */,
+				573A49D4210CAC2300DFCB3E /* insecure_memzero.h */,
+				573A49D5210CAC2300DFCB3E /* sha256.c */,
+				573A49D6210CAC2300DFCB3E /* sha256.h */,
+				573A49D7210CAC2300DFCB3E /* sysendian.h */,
+				573A49D8210CAC2300DFCB3E /* tests.c */,
+				573A49D9210CAC2300DFCB3E /* yespower-opt.c */,
+				573A49DA210CAC2300DFCB3E /* yespower-platform.c */,
+				573A49DB210CAC2300DFCB3E /* yespower-ref.c */,
+				573A49DC210CAC2300DFCB3E /* yespower.c */,
+				573A49DD210CAC2300DFCB3E /* yespower.h */,
+			);
+			path = yespower;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -333,6 +384,7 @@
 				5703DE0A206E7415008EB929 /* multi.h in Headers */,
 				5703DE07206E7415008EB929 /* curlver.h in Headers */,
 				5703DE5B206E7428008EB929 /* sha256.h in Headers */,
+				573A49E5210CAC2300DFCB3E /* sha256.h in Headers */,
 				5703DE47206E7428008EB929 /* compat.h in Headers */,
 				5703DE0B206E7415008EB929 /* stdcheaders.h in Headers */,
 				5703DE0F206E7415008EB929 /* jansson.h in Headers */,
@@ -341,10 +393,13 @@
 				5703DE0C206E7415008EB929 /* system.h in Headers */,
 				5703DE64206E7428008EB929 /* yescrypt.h in Headers */,
 				5703DE0D206E7415008EB929 /* typecheck-gcc.h in Headers */,
+				573A49E6210CAC2300DFCB3E /* sysendian.h in Headers */,
 				5703DE06206E7415008EB929 /* curl.h in Headers */,
 				5703DE10206E7415008EB929 /* jansson_config.h in Headers */,
+				573A49E3210CAC2300DFCB3E /* insecure_memzero.h in Headers */,
 				5703DE09206E7415008EB929 /* mprintf.h in Headers */,
 				5703DE08206E7415008EB929 /* easy.h in Headers */,
+				573A49EC210CAC2300DFCB3E /* yespower.h in Headers */,
 				5703DDE9206E737B008EB929 /* BitZenyMiningLibrary.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +485,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				573A49E1210CAC2300DFCB3E /* TESTS-OK in Resources */,
+				573A49E0210CAC2300DFCB3E /* README in Resources */,
 				5703DE45206E7428008EB929 /* README in Resources */,
 				5703DE40206E7428008EB929 /* ChangeLog in Resources */,
 				5703DE51206E7428008EB929 /* nomacro.pl in Resources */,
@@ -441,10 +498,12 @@
 				5703DE42206E7428008EB929 /* LICENSE in Resources */,
 				5703DE44206E7428008EB929 /* NEWS in Resources */,
 				5703DE3D206E7428008EB929 /* AUTHORS in Resources */,
+				573A49DE210CAC2300DFCB3E /* .dirstamp in Resources */,
 				5703DE48206E7428008EB929 /* configure.ac in Resources */,
 				5703DE43206E7428008EB929 /* Makefile.am in Resources */,
 				5703DE41206E7428008EB929 /* Dockerfile in Resources */,
 				5703DE3E206E7428008EB929 /* CMakeLists.txt in Resources */,
+				573A49DF210CAC2300DFCB3E /* PERFORMANCE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,11 +521,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				573A49EE210CAC3400DFCB3E /* sha2-x86-notextrel.S in Sources */,
 				5703DE57206E7428008EB929 /* sha2-x64.S in Sources */,
 				5703DE4D206E7428008EB929 /* libcpuminer.c in Sources */,
 				5703DE53206E7428008EB929 /* scrypt-x64.S in Sources */,
 				5703DE56206E7428008EB929 /* sha2-arm.S in Sources */,
 				5703DE66206E743E008EB929 /* BitZenyMiningLibrary.mm in Sources */,
+				573A49EB210CAC2300DFCB3E /* yespower.c in Sources */,
+				573A49E4210CAC2300DFCB3E /* sha256.c in Sources */,
 				5703DE54206E7428008EB929 /* scrypt-x86.S in Sources */,
 				5703DE5D206E7428008EB929 /* util.c in Sources */,
 				5703DE59206E7428008EB929 /* sha2.c in Sources */,
@@ -618,6 +680,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/BitZenyMiningLibrary/distribution/curl/include/**",
 					"$(PROJECT_DIR)/BitZenyMiningLibrary/distribution/jansson/include/**",
+					"$(PROJECT_DIR)/BitZenyMiningLibrary/libcpuminer/**",
 				);
 				INFOPLIST_FILE = BitZenyMiningLibrary/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -647,6 +710,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/BitZenyMiningLibrary/distribution/curl/include/**",
 					"$(PROJECT_DIR)/BitZenyMiningLibrary/distribution/jansson/include/**",
+					"$(PROJECT_DIR)/BitZenyMiningLibrary/libcpuminer/**",
 				);
 				INFOPLIST_FILE = BitZenyMiningLibrary/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
