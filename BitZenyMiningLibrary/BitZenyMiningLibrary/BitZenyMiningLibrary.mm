@@ -34,16 +34,16 @@ void output(const char *format, va_list arg) {
     return self;
 }
 
-- (int) startMining:(NSString*)url user:(NSString*)user password:(NSString*)password n_threads:(int)n_threads {
+- (int) startMining:(NSString*)url user:(NSString*)user password:(NSString*)password n_threads:(int)n_threads algorithm:(Algorithm)algorithm algorithm:(Algorithm)algorithm {
     char* c_url = (char*)[url UTF8String];
     char* c_user = (char*)[user UTF8String];
     char* c_password = (char*)[password UTF8String];
 
-    return start(c_url, c_user, c_password, n_threads);
+    return start(c_url, c_user, c_password, n_threads, algorithm);
 }
 
-- (int) startBenchmark {
-    return start(NULL, NULL, NULL);
+- (int) startBenchmark: (Algorithm)algorithm {
+    return start(NULL, NULL, NULL, NULL, algorithm);
 }
 
 - (int) stopMining {
